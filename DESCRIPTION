@@ -1,0 +1,16 @@
+Package: MiBaCoCl
+Type: Package
+Title: What the Package Does (Title Case)
+Version: 0.1.0
+Author: Bemsibom Toh and Paul Kirk
+Maintainer: Bemsibom Toh <bemsibom.toh@mrc-bsu.cam.ac.uk>
+Description: Extension of Profile Regression and other clustering algorithms to
+    large n by mini-batching
+License: MIT Licence
+Encoding: UTF-8
+SystemRequirements: C++11
+LinkingTo: Rcpp, RcppArmadillo
+Imports: caTools, PReMiuM, data.table, RColorBrewer, mcclust, mclust, gtools,
+    tidyverse
+LazyData: true
+RoxygenNote: 7.1.1

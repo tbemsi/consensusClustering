@@ -1,0 +1,70 @@
+Date and time: 2021-05-13 12:2404
+
+Data file path: PremiumOutput/newtrainOutput_1_input.txt
+
+Output file path: PremiumOutput/newtrainOutput_1
+
+Predict file path: No predictions run.
+
+Seed: 1234
+
+Number of sweeps: 3000
+Burn in sweeps: 100
+Output filter: 1
+Proposal Type: gibbsForVActive, Acceptance Rate: 1
+Proposal Type: updateForPhiActive, Acceptance Rate: 1
+Proposal Type: gibbsForU, Acceptance Rate: 1
+Proposal Type: metropolisHastingsForAlpha, Acceptance Rate: 0.431613
+Proposal Type: gibbsForVInActive, Acceptance Rate: 1
+Proposal Type: gibbsForPhiInActive, Acceptance Rate: 1
+Proposal Type: metropolisHastingsForLabels123, Acceptance Rate: 0.0990323
+Proposal Type: gibbsForZ, Acceptance Rate: 1
+Number of subjects: 5527
+Number of prediction subjects: 0
+Prediction type: RaoBlackwell
+Sampler type: SliceDependent
+Number of initial clusters: 100
+Covariates: 
+	b (categorical)
+	c (categorical)
+	d (categorical)
+	e (categorical)
+	f (categorical)
+	g (categorical)
+	h (categorical)
+	i (categorical)
+	j (categorical)
+	k (categorical)
+	l (categorical)
+	m (categorical)
+	n (categorical)
+	o (categorical)
+	p (categorical)
+	q (categorical)
+	r (categorical)
+	s (categorical)
+	t (categorical)
+	u (categorical)
+	v (categorical)
+	w (categorical)
+	x (categorical)
+	y (categorical)
+	z (categorical)
+No fixed effects
+Model for Y: Bernoulli
+Extra Y variance: False
+Include response: False
+Update alpha: True
+Compute allocation entropy: False
+Model for X: Discrete
+Variable selection: None
+
+Hyperparameters:
+shapeAlpha: 2
+rateAlpha: 1
+aPhi[j]: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+muTheta: 0
+sigmaTheta: 2.5
+dofTheta: 7
+
+3100 sweeps done in 32 seconds
